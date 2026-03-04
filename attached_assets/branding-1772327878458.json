@@ -1,0 +1,153 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Lexend Deca",
+      "role": "body"
+    },
+    {
+      "family": "Roboto",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#F2C94C",
+    "accent": "#007BFF",
+    "background": "#FFFFFF",
+    "textPrimary": "#151515",
+    "link": "#007BFF"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Lexend Deca",
+      "heading": "Lexend Deca"
+    },
+    "fontStacks": {
+      "heading": [
+        "Lexend Deca",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica Neue",
+        "Arial",
+        "Noto Sans",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji"
+      ],
+      "body": [
+        "Lexend Deca",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica Neue",
+        "Arial",
+        "Noto Sans",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji"
+      ],
+      "paragraph": [
+        "DM Sans",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "16px",
+      "h2": "48px",
+      "body": "18px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "8px"
+  },
+  "components": {
+    "buttonPrimary": {
+      "background": "#F2C94C",
+      "textColor": "#000000",
+      "borderRadius": "5px",
+      "borderRadiusCorners": {
+        "topLeft": "5px",
+        "topRight": "5px",
+        "bottomRight": "5px",
+        "bottomLeft": "5px"
+      },
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#FFFFFF",
+      "textColor": "#6664E4",
+      "borderRadius": "5px",
+      "borderRadiusCorners": {
+        "topLeft": "5px",
+        "topRight": "5px",
+        "bottomRight": "5px",
+        "bottomLeft": "5px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "https://rankitglobally.com/wp-content/uploads/2025/03/Logo-White-Rank-It-Globally-1.svg",
+    "favicon": "https://rankitglobally.com/wp-content/uploads/2024/08/cropped-Favicon-32x32.png",
+    "ogImage": "https://rankitglobally.com/wp-content/uploads/2025/03/our-services-1.png",
+    "logoHref": "https://rankitglobally.com/",
+    "logoAlt": "Logo White Rank It Globally 1"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 2,
+    "reasoning": "Selected #0 because it is visible, medium-sized, and matches the brand name 'Rank It Globally'. It links to the homepage, indicating it is the primary logo.",
+    "confidence": 0.9,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 2,
+      "text": "Start My Project",
+      "reasoning": "Button #2 'Start My Project' has a vibrant brand color (#F2C94C) and strong action-oriented text, making it the primary CTA."
+    },
+    "secondary": {
+      "index": 10,
+      "text": "Book A Free Consultation",
+      "reasoning": "Button #10 'Book A Free Consultation' has a different background color (#FFFFFF) and serves as a secondary action with a less vibrant appearance."
+    },
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "businesses seeking digital marketing services"
+  },
+  "designSystem": {
+    "framework": "bootstrap",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.95,
+    "colors": 0.9,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is visible, medium-sized, and matches the brand name 'Rank It Globally'. It links to the homepage, indicating it is the primary logo.",
+        "confidence": 0.9
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}

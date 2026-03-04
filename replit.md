@@ -37,6 +37,11 @@ EEZVisa (eezvisa.com) is a professional visit visa application service website t
 - `POST /api/inquiries` - Submit a new inquiry
 - `GET /api/inquiries` - List all inquiries
 
+## GitHub Sync
+- **Repository**: https://github.com/hafizabubakargill/eezvisa
+- **Sync script**: `npx tsx scripts/sync-to-github.ts "commit message"` — pushes all tracked files to GitHub
+- Uses Replit's GitHub integration (OAuth connector) for authentication
+
 ## Environment
 - `DATABASE_URL` - PostgreSQL connection string
 - `SESSION_SECRET` - Session secret key
